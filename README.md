@@ -35,12 +35,50 @@ The optimization process considers:
 
 ```text
 data/
+├── data_loader.py
+├── dri_loader.py
+├── user_preference_loader.py
+└── database_test.py
+
 genetic_algorithms/
+├── chromosome.py
+├── decoder.py
+├── fitness.py
+├── penalty.py
+├── constraint_checker.py
+├── diversity.py
+├── crossover.py
+├── mutation.py
+└── selection.py
+
 algorithms/
+├── nsga2.py
+└── spea2.py
+
 experiments/
+└── experiment_runner.py
+
 visualization/
+└── visualization.py
+
 results/
+├── history_all.csv
+├── history_all_hv.csv
+├── pareto_all.csv
+├── sample_menus.csv
+├── sample_nutrient_summary.csv
+└── summary_hypervolume.csv
+
 plots/
+├── pareto_nsga2.png
+├── pareto_spea2.png
+├── hypervolume_convergence.png
+├── diversity_impact_nsga2.png
+├── diversity_impact_spea2.png
+├── user_comparison.png
+└── algorithm_comparison_overlay.png
+
+
 ```
 
 ## Technologies
