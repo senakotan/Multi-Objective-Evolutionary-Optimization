@@ -81,10 +81,4 @@ plots/
 
 ```
 
-## Technologies
-
-- Python
-- Pandas
-- NumPy
-- MySQL
 
